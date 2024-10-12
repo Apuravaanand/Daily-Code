@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Give the I/P"<<endl;
+    cin>>num;
+
+    char count='A';
+    for(int raw=1;raw<=num;raw++){
+        for(int col=1;col<=num;col++){
+
+            cout<<count<<"   ";
+            count=count+1;
+
+        }
+        cout<<endl<<endl;
+    }
+    return 0;
+}
